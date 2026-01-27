@@ -1,0 +1,40 @@
+/* Portfolio Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #1a1c1b;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1c1b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3f4816;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d9fb06;
+}
+
+/* Line clamp utility */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Selection styling */
+::selection {
+  background-color: #d9fb06;
+  color: #1a1c1b;
+}
