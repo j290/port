@@ -73,16 +73,16 @@ export const projects = [
   {
     id: 1,
     title: "Overload",
-    type: "Brand Website / Concept Store",
-    description: "Digital identity and web concept for an underground clothing brand. Focused on minimal design, strong typography and brand presence.",
+    type: "Brand Website / Concept Store based on real brand",
+    description: "Digital identity and web concept for an underground clothing brand. Focused on minimal design, strong typography and brand presence. (This is just a mock)",
     features: ["Landing page", "Brand storytelling", "Responsive layout"],
     tech: ["React", "CSS / Tailwind"],
     image: "https://images.unsplash.com/photo-1649442279057-d793bd554d82?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxNzV8MHwxfHNlYXJjaHwxfHxsYXB0b3AlMjBzY3JlZW58ZW58MHx8fGJsYWNrfDE3Njk0NjE2MTl8MA&ixlib=rb-4.1.0&q=85",
     // =====================================================================
     // EDITA ESTOS LINKS CON TUS URLs REALES:
     // =====================================================================
-    liveDemo: "https://tu-proyecto-overload.vercel.app",  // <-- Cambia por tu URL de demo
-    code: "https://github.com/tu-usuario/overload",       // <-- Cambia por tu repo de GitHub
+    liveDemo: "https://overload-8qu2.onrender.com/about",  // <-- Cambia por tu URL de demo
+    code: "https://github.com/j290/overload",       // <-- Cambia por tu repo de GitHub
     isReal: true,
     isCompany: false
   },
