@@ -81,7 +81,7 @@ export const projects = [
     // =====================================================================
     // EDITA ESTOS LINKS CON TUS URLs REALES:
     // =====================================================================
-    liveDemo: "https://overload-8qu2.onrender.com/about",  // <-- Cambia por tu URL de demo
+    liveDemo: "https://overload-8qu2.onrender.com",  // <-- Cambia por tu URL de demo
     code: "https://github.com/j290/overload",       // <-- Cambia por tu repo de GitHub
     isReal: true,
     isCompany: false
