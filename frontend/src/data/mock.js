@@ -72,22 +72,6 @@ export const skills = {
 export const projects = [
   {
     id: 1,
-    title: "Overload",
-    type: "Brand Website / Concept Store based on real brand",
-    description: "Digital identity and web concept for an underground clothing brand. Focused on minimal design, strong typography and brand presence. (This is just a mock)",
-    features: ["Landing page", "Brand storytelling", "Responsive layout"],
-    tech: ["React", "CSS / Tailwind"],
-    image: "https://images.unsplash.com/photo-1649442279057-d793bd554d82?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxNzV8MHwxfHNlYXJjaHwxfHxsYXB0b3AlMjBzY3JlZW58ZW58MHx8fGJsYWNrfDE3Njk0NjE2MTl8MA&ixlib=rb-4.1.0&q=85",
-    // =====================================================================
-    // EDITA ESTOS LINKS CON TUS URLs REALES:
-    // =====================================================================
-    liveDemo: "https://overload-8qu2.onrender.com",  // <-- Cambia por tu URL de demo
-    code: "https://github.com/j290/overload",       // <-- Cambia por tu repo de GitHub
-    isReal: true,
-    isCompany: false
-  },
-  {
-    id: 2,
     title: "EFFITECH",
     type: "Enterprise Web Solution",
     description: "Complete web identity developed for a technology efficiency company. Professional solution with clean interfaces, performance optimization and modern aesthetics. Built for real business operations.",
@@ -103,7 +87,7 @@ export const projects = [
     isCompany: true  // Marca que es proyecto empresarial (sin acceso público)
   },
   {
-    id: 3,
+    id: 2,
     title: "Admin Dashboard",
     type: "Web App / Admin Panel",
     description: "Functional admin dashboard concept for managing users, metrics and content. Built with real authentication and data visualization.",
@@ -113,9 +97,25 @@ export const projects = [
     // =====================================================================
     // EDITA ESTOS LINKS CON TUS URLs REALES:
     // =====================================================================
-    liveDemo: "https://tu-dashboard.vercel.app",          // <-- Cambia por tu URL de demo
-    code: "https://github.com/tu-usuario/admin-dashboard", // <-- Cambia por tu repo
+    liveDemo: "https://admin-dashboard-jqda.onrender.com/dashboard",          // <-- Cambia por tu URL de demo
+    code: "https://github.com/j290/admin-dashboard", // <-- Cambia por tu repo
     isReal: false,  // Proyecto conceptual/demo
+    isCompany: false
+  },
+   {
+    id: 3,
+    title: "Overload",
+    type: "Brand Website / Concept Store based on real brand",
+    description: "Digital identity and web concept for an underground clothing brand. Focused on minimal design, strong typography and brand presence. (This is just a mock)",
+    features: ["Landing page", "Brand storytelling", "Responsive layout"],
+    tech: ["React", "CSS / Tailwind"],
+    image: "https://images.unsplash.com/photo-1649442279057-d793bd554d82?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxNzV8MHwxfHNlYXJjaHwxfHxsYXB0b3AlMjBzY3JlZW58ZW58MHx8fGJsYWNrfDE3Njk0NjE2MTl8MA&ixlib=rb-4.1.0&q=85",
+    // =====================================================================
+    // EDITA ESTOS LINKS CON TUS URLs REALES:
+    // =====================================================================
+    liveDemo: "https://overload-8qu2.onrender.com",  // <-- Cambia por tu URL de demo
+    code: "https://github.com/j290/overload",       // <-- Cambia por tu repo de GitHub
+    isReal: true,
     isCompany: false
   },
   {
@@ -134,6 +134,7 @@ export const projects = [
     isReal: false,  // Proyecto conceptual/demo
     isCompany: false
   }
+  
 ];
 
 // =============================================================================
