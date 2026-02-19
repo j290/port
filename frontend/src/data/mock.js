@@ -97,7 +97,7 @@ export const projects = [
     // =====================================================================
     // EDITA ESTOS LINKS CON TUS URLs REALES:
     // =====================================================================
-    liveDemo: "https://admin-dashboard-jqda.onrender.com/dashboard",          // <-- Cambia por tu URL de demo
+    liveDemo: "https://admin-dashboard-jqda.onrender.com",          // <-- Cambia por tu URL de demo
     code: "https://github.com/j290/admin-dashboard", // <-- Cambia por tu repo
     isReal: false,  // Proyecto conceptual/demo
     isCompany: false
