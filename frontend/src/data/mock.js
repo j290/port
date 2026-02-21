@@ -115,7 +115,7 @@ export const projects = [
     // =====================================================================
     liveDemo: "https://overload-8qu2.onrender.com",  // <-- Cambia por tu URL de demo
     code: "https://github.com/j290/overload",       // <-- Cambia por tu repo de GitHub
-    isReal: flase,
+    isReal: false,
     isCompany: false
   },
   {
