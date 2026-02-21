@@ -90,7 +90,7 @@ export const projects = [
     id: 2,
     title: "Admin Dashboard",
     type: "Web App / Admin Panel",
-    description: "Functional admin dashboard concept for managing users, metrics and content. Built with real authentication and data visualization.",
+    description: "Functional admin dashboard concept for managing users, metrics and content. Built with real authentication and data visualization. Join as admin: Mail: admin@effitech.com Password: admin123",
     features: ["Login / auth", "Charts & stats", "CRUD structure"],
     tech: ["React", "Mock API"],
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTV8MHwxfHNlYXJjaHwxfHxhZG1pbiUyMGRhc2hib2FyZHxlbnwwfHx8YmxhY2t8MTc2OTQ2MTYyNXww&ixlib=rb-4.1.0&q=85",
@@ -129,11 +129,11 @@ export const projects = [
     // =====================================================================
     // EDITA ESTOS LINKS CON TUS URLs REALES:
     // =====================================================================
-    liveDemo: "https://tu-landing.vercel.app",            // <-- Cambia por tu URL de demo
-    code: "https://github.com/tu-usuario/product-landing", // <-- Cambia por tu repo
-    isReal: false,  // Proyecto conceptual/demo
-    isCompany: false
-  }
+    liveDemo: null,            // <-- Cambia por tu URL de demo
+    code: null, // <-- Cambia por tu repo
+    isReal: true,  // Proyecto conceptual/demo
+    isCompany: true
+  },
   
 ];
 
