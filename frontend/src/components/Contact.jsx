@@ -33,7 +33,7 @@ import emailjs from '@emailjs/browser';
 // =============================================================================
 // Obtén estos valores en https://www.emailjs.com -> Dashboard
 const EMAILJS_SERVICE_ID = 'service_kkrwc7g';    // Ej: 'service_abc123'
-const EMAILJS_TEMPLATE_ID = 'template_ffn9irh';  // Ej: 'template_xyz789'
+const EMAILJS_TEMPLATE_ID = 'template_xk5tps3';  // Ej: 'template_xyz789'
 const EMAILJS_PUBLIC_KEY = '5TCxY5UVRkJMkT8aq';    // Ej: 'abcdefghijklmnop'
 
 const Contact = () => {
