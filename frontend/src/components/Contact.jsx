@@ -32,7 +32,7 @@ import emailjs from '@emailjs/browser';
 // CONFIGURACIÓN DE EMAILJS - ¡EDITA ESTOS VALORES!
 // =============================================================================
 // Obtén estos valores en https://www.emailjs.com -> Dashboard
-const EMAILJS_SERVICE_ID = 'service_cb3a6hm';    // Ej: 'service_abc123'
+const EMAILJS_SERVICE_ID = 'service_56wdrtw';    // Ej: 'service_abc123'
 const EMAILJS_TEMPLATE_ID = 'template_elq9u9a';  // Ej: 'template_xyz789'
 const EMAILJS_PUBLIC_KEY = 'JFncqhpi8WPWIxqzc';    // Ej: 'abcdefghijklmnop'
 
