@@ -86,8 +86,8 @@ const Contact = () => {
       
       // Mostrar notificación de éxito
       toast({
-        title: "¡Mensaje enviado!",
-        description: "Gracias por contactarme. Te responderé pronto.",
+        title: "¡Message Sent!",
+        description: "Thank you for contacting me. I'll reply to you soon",
       });
       
       // Limpiar formulario y mostrar estado de éxito
@@ -102,7 +102,7 @@ const Contact = () => {
       console.error('Error enviando mensaje:', error);
       toast({
         title: "Error",
-        description: "No se pudo enviar el mensaje. Intenta de nuevo o escríbeme directamente.",
+        description: "Couldn't send the message, try again please.",
         variant: "destructive"
       });
     } finally {
@@ -122,18 +122,18 @@ const Contact = () => {
             <div>
               {/* Etiqueta de sección */}
               <span className="text-[#d9fb06] text-sm font-semibold uppercase tracking-widest">
-                Contacto
+                Contact
               </span>
               
               {/* TEXTO EDITABLE: Título principal */}
               <h2 className="text-[#dfddd6] font-black text-3xl md:text-4xl lg:text-5xl mt-4 leading-tight">
-                ¿Buscas un desarrollador<br />
-                <span className="text-[#888680]">para tu próximo proyecto?</span>
+                ¿Looking for a complete developer<br />
+                <span className="text-[#888680]">for your next proyect?</span>
               </h2>
               
               {/* TEXTO EDITABLE: Subtítulo */}
               <p className="text-[#888680] text-lg mt-6 max-w-md">
-                Hablemos. Siempre estoy abierto a discutir nuevos proyectos e ideas creativas.
+                Let's talk, im always up to new ideas.
               </p>
 
               {/* ---------------------------------------------------------------
@@ -198,7 +198,7 @@ const Contact = () => {
               ----------------------------------------------------------------- */}
           <AnimatedSection delay={200} direction="left">
             <div className="bg-[#1a1c1b] p-8 rounded-2xl border border-[#3f4816]/30">
-              <h3 className="text-[#dfddd6] font-semibold text-xl mb-6">Envía un mensaje</h3>
+              <h3 className="text-[#dfddd6] font-semibold text-xl mb-6">Send me a message</h3>
               
               <form onSubmit={handleSubmit} className="space-y-5">
                 {/* Campo: Nombre */}
@@ -239,14 +239,14 @@ const Contact = () => {
                 {/* Campo: Mensaje */}
                 <div>
                   <label htmlFor="message" className="text-[#888680] text-sm mb-2 block">
-                    Mensaje
+                    Message
                   </label>
                   <Textarea
                     id="message"
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
-                    placeholder="Cuéntame sobre tu proyecto..."
+                    placeholder="Tell me about your proyect..."
                     required
                     disabled={isSubmitting}
                     rows={5}
@@ -268,19 +268,19 @@ const Contact = () => {
                     // Estado: Enviando
                     <>
                       <Loader2 size={18} className="mr-2 animate-spin" />
-                      Enviando...
+                      Sending...
                     </>
                   ) : isSuccess ? (
                     // Estado: Enviado con éxito
                     <>
                       <CheckCircle size={18} className="mr-2" />
-                      ¡Mensaje Enviado!
+                      ¡Message Sent!
                     </>
                   ) : (
                     // Estado: Normal
                     <>
                       <Send size={18} className="mr-2" />
-                      Enviar Mensaje
+                      Send Message
                     </>
                   )}
                 </Button>
