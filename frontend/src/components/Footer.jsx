@@ -95,7 +95,7 @@ const Footer = () => {
               onClick={scrollToTop}
               className="flex items-center gap-2 text-[#888680] hover:text-[#d9fb06] transition-colors group"
             >
-              <span className="text-sm font-medium">Volver arriba</span>
+              <span className="text-sm font-medium">Go up</span>
               <div className="p-2 bg-[#302f2c] rounded-lg group-hover:bg-[#3f4816]/50 transition-colors">
                 <ArrowUp size={16} />
               </div>
