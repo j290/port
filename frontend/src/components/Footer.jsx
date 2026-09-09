@@ -46,7 +46,7 @@ const Footer = () => {
               </a>
               {/* Texto de copyright */}
               <p className="text-[#888680] text-sm">
-                © {currentYear} {personalInfo.name} {personalInfo.lastName}. Todos los derechos reservados.
+                © {currentYear} {personalInfo.name} {personalInfo.lastName}. All rights reserved.
               </p>
             </div>
 
