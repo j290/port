@@ -229,7 +229,7 @@ const Contact = () => {
                     type="email"
                     value={formData.email}
                     onChange={handleChange}
-                    placeholder="tu@email.com"
+                    placeholder="your@email.com"
                     required
                     disabled={isSubmitting}
                     className="bg-[#302f2c] border-[#3f4816]/50 text-[#dfddd6] placeholder:text-[#888680]/50 focus:border-[#d9fb06] focus:ring-[#d9fb06]/20 h-12 rounded-xl disabled:opacity-50"
