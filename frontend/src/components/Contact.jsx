@@ -211,7 +211,7 @@ const Contact = () => {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    placeholder="Tu nombre"
+                    placeholder="Your Name"
                     required
                     disabled={isSubmitting}
                     className="bg-[#302f2c] border-[#3f4816]/50 text-[#dfddd6] placeholder:text-[#888680]/50 focus:border-[#d9fb06] focus:ring-[#d9fb06]/20 h-12 rounded-xl disabled:opacity-50"
